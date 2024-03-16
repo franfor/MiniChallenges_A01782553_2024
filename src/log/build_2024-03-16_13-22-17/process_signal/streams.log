@@ -1,0 +1,47 @@
+[0.726s] Invoking command in '/home/mcr2/ros2_ws/src/process_signal': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/signal_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/signal_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/signal_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/process_signal/prefix_override:/home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/process_signal build --build-base /home/mcr2/ros2_ws/src/build/process_signal/build install --record /home/mcr2/ros2_ws/src/build/process_signal/install.log --single-version-externally-managed
+[0.933s] running egg_info
+[0.933s] creating ../build/process_signal/process_signal.egg-info
+[0.933s] writing ../build/process_signal/process_signal.egg-info/PKG-INFO
+[0.934s] writing dependency_links to ../build/process_signal/process_signal.egg-info/dependency_links.txt
+[0.934s] writing entry points to ../build/process_signal/process_signal.egg-info/entry_points.txt
+[0.934s] writing requirements to ../build/process_signal/process_signal.egg-info/requires.txt
+[0.934s] writing top-level names to ../build/process_signal/process_signal.egg-info/top_level.txt
+[0.934s] writing manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+[0.936s] reading manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+[0.936s] writing manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+[0.937s] running build
+[0.937s] running build_py
+[0.937s] creating /home/mcr2/ros2_ws/src/build/process_signal/build
+[0.937s] creating /home/mcr2/ros2_ws/src/build/process_signal/build/lib
+[0.937s] creating /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+[0.937s] copying process_signal/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+[0.938s] copying process_signal/signal_generator.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+[0.938s] copying process_signal/__init__.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+[0.939s] running install
+[0.939s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.939s]   warnings.warn(
+[0.939s] running install_lib
+[0.940s] creating /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+[0.940s] copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+[0.940s] copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/signal_generator.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+[0.940s] copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/__init__.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+[0.941s] byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/signal_reconstruction.py to signal_reconstruction.cpython-310.pyc
+[0.941s] byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/signal_generator.py to signal_generator.cpython-310.pyc
+[0.942s] byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/__init__.py to __init__.cpython-310.pyc
+[0.942s] running install_data
+[0.943s] creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index
+[0.943s] creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index
+[0.943s] creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index/packages
+[0.943s] copying resource/process_signal -> /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index/packages
+[0.943s] copying package.xml -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal
+[0.944s] creating /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/launch
+[0.944s] copying launch/signal_launch.py -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/launch
+[0.944s] creating /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/config
+[0.944s] copying config/params.yaml -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/config
+[0.944s] running install_egg_info
+[0.946s] Copying ../build/process_signal/process_signal.egg-info to /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal-0.0.0-py3.10.egg-info
+[0.946s] running install_scripts
+[0.964s] Installing signal_generator script to /home/mcr2/ros2_ws/src/install/process_signal/lib/process_signal
+[0.964s] Installing signal_reconstruction script to /home/mcr2/ros2_ws/src/install/process_signal/lib/process_signal
+[0.964s] writing list of installed files to '/home/mcr2/ros2_ws/src/build/process_signal/install.log'
+[0.986s] Invoked command in '/home/mcr2/ros2_ws/src/process_signal' returned '0': AMENT_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/signal_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mcr2/ros2_ws/src/install/signal_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mcr2/ros2_ws/src/install/signal_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mcr2/ros2_ws/src/build/process_signal/prefix_override:/home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages:/home/mcr2/ros2_ws/src/install/signal_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/process_signal build --build-base /home/mcr2/ros2_ws/src/build/process_signal/build install --record /home/mcr2/ros2_ws/src/build/process_signal/install.log --single-version-externally-managed

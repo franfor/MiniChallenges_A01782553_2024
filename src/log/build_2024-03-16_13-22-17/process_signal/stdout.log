@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/process_signal/process_signal.egg-info
+writing ../build/process_signal/process_signal.egg-info/PKG-INFO
+writing dependency_links to ../build/process_signal/process_signal.egg-info/dependency_links.txt
+writing entry points to ../build/process_signal/process_signal.egg-info/entry_points.txt
+writing requirements to ../build/process_signal/process_signal.egg-info/requires.txt
+writing top-level names to ../build/process_signal/process_signal.egg-info/top_level.txt
+writing manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+reading manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+writing manifest file '../build/process_signal/process_signal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mcr2/ros2_ws/src/build/process_signal/build
+creating /home/mcr2/ros2_ws/src/build/process_signal/build/lib
+creating /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+copying process_signal/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+copying process_signal/signal_generator.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+copying process_signal/__init__.py -> /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal
+running install
+running install_lib
+creating /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/signal_reconstruction.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/signal_generator.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+copying /home/mcr2/ros2_ws/src/build/process_signal/build/lib/process_signal/__init__.py -> /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal
+byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/signal_reconstruction.py to signal_reconstruction.cpython-310.pyc
+byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/signal_generator.py to signal_generator.cpython-310.pyc
+byte-compiling /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index
+creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index
+creating /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index/packages
+copying resource/process_signal -> /home/mcr2/ros2_ws/src/install/process_signal/share/ament_index/resource_index/packages
+copying package.xml -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal
+creating /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/launch
+copying launch/signal_launch.py -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/launch
+creating /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/config
+copying config/params.yaml -> /home/mcr2/ros2_ws/src/install/process_signal/share/process_signal/config
+running install_egg_info
+Copying ../build/process_signal/process_signal.egg-info to /home/mcr2/ros2_ws/src/install/process_signal/lib/python3.10/site-packages/process_signal-0.0.0-py3.10.egg-info
+running install_scripts
+Installing signal_generator script to /home/mcr2/ros2_ws/src/install/process_signal/lib/process_signal
+Installing signal_reconstruction script to /home/mcr2/ros2_ws/src/install/process_signal/lib/process_signal
+writing list of installed files to '/home/mcr2/ros2_ws/src/build/process_signal/install.log'
